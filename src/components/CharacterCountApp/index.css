@@ -1,0 +1,117 @@
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  padding: 30px;
+}
+
+.two-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-height: 80vh;
+  max-width: 80vw;
+  margin: 20px;
+}
+
+.yellow-page {
+  background-color: #ffc533;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50vw;
+  height: 80vh;
+}
+
+.yellow-page-data-container {
+  background-color: #ffbf1f;
+  padding: 20px;
+  min-width: 90%;
+  background-size: cover;
+}
+
+.count-heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.imageElement {
+  height: 40vh;
+  width: 30vw;
+  margin-top: 5px;
+}
+
+.dark-container {
+  background-color: #0f172a;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 40vw;
+  min-height: 80vh;
+}
+
+.heading {
+  color: #ffbf1f;
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  min-width: 90%;
+}
+.input-element {
+  height: 45px;
+  width: 70%;
+  margin: 5px;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #475569;
+  outline: none;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+
+.btn-element {
+  height: 45px;
+  width: 25%;
+  background-color: #ffbf1f;
+  border: 0px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  width: 90%;
+  overflow-y: auto;
+  line-height: 2px;
+}
